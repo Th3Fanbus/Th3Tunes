@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Th3Tunes",
+	"Description": "Wwise modding compatibility framework",
+	"Category": "Modding",
+	"CreatedBy": "Th3Fanbus",
+	"CreatedByURL": "https://github.com/Th3Fanbus",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/xkVJ73E",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Th3Tunes",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.7.0"
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true,
+			"SemVersion": "*",
+			"BasePlugin": true
+		}
+	],
+	"SemVersion": "1.0.0"
+}
