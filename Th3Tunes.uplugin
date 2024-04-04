@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
+	"VersionName": "1.0.1",
 	"FriendlyName": "Th3Tunes",
 	"Description": "Wwise modding compatibility framework",
 	"Category": "Modding",
@@ -10,7 +10,7 @@
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "https://discord.gg/xkVJ73E",
-	"CanContainContent": true,
+	"CanContainContent": false,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
@@ -26,13 +26,7 @@
 			"Name": "SML",
 			"Enabled": true,
 			"SemVersion": "^3.7.0"
-		},
-		{
-			"Name": "Wwise",
-			"Enabled": true,
-			"SemVersion": "*",
-			"BasePlugin": true
 		}
 	],
-	"SemVersion": "1.0.0"
+	"SemVersion": "1.0.1"
 }
