@@ -45,7 +45,7 @@ public:
 
 void FTh3TunesModule::StartupModule()
 {
-	if (not WITH_EDITOR) {
+	if (!WITH_EDITOR) {
 		FTh3WwisePatcher::InstallHook();
 	}
 }
